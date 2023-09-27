@@ -1,4 +1,4 @@
-console.log("Hello NVC");
+console.log("Random Question: What is a piece of technology you wish existed?");
 
 const animals = ["Fish", "Cat", "Dog", "Bird"];
 
