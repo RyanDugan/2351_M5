@@ -8,11 +8,10 @@ for (let i = 1; i <= 12; i++) {
 
 //fruit loop...follow your nose!
 const fruit = ["Apple", "Pear", "Strawberry", "Cherry", "Grape"];
-
 let text = "";
-
 for (let i = 0; i < fruit.length; i++) {
   text += fruit[i] + "<br>";
 }
-
 document.getElementById("test1.2").innerHTML = text;
+
+// While Loop
