@@ -28,3 +28,9 @@ const fruits = ["Apple", "Banana", "Orange"];
 for (x of fruits) {
   console.log(x);
 }
+
+//For Loop
+for (let i = 1; i <= 12; i++) {
+  document.getElementById("test1").innerHTML = i;
+  console.log(i);
+}
