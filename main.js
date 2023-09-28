@@ -15,3 +15,12 @@ for (let i = 0; i < fruit.length; i++) {
 document.getElementById("test1.2").innerHTML = text;
 
 // While Loop
+
+//i is assigned to 0 and while the loop iterates and i is less than 10 the while loop continues. It is also increasing by two after initiating.
+
+let i = 0;
+while (i < 10) {
+  document.getElementById("test2").innerHTML = i;
+  console.log(i);
+  i = i + 2;
+}
