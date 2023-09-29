@@ -27,13 +27,12 @@ while (i < 10) {
 }
 
 // Do While Loop
-
 {
   let txt = "";
-  let i = 0;
+  let i = 11;
 
   do {
-    txt += "<br>The Number is " + i;
+    txt += "The Number is " + i;
     i++;
   } while (i < 10);
   document.getElementById("test2.2").innerHTML = txt;
