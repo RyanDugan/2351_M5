@@ -36,9 +36,8 @@ while (i < 10) {
     txt += "<br>The Number is " + i;
     i++;
   } while (i < 10);
+  document.getElementById("test2.2").innerHTML = txt;
 }
-
-document.getElementById("test2.2").innerHTML = i;
 
 //Change CSS with JS
 //color of first p element is changec from blue to red. Both have a class of "blue".
