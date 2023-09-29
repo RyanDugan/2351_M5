@@ -44,6 +44,7 @@ document.getElementById("test2.2").innerHTML = i;
 //color of first p element is changec from blue to red. Both have a class of "blue".
 document.getElementsByClassName("blue")[0].style.color = "red";
 
+//the style was transformed with js!
 document.getElementById("test3").style.transform = "rotate(5deg)";
 
 //Change CSS based upon variable value
