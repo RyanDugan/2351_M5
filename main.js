@@ -38,3 +38,7 @@ while (i < 10) {
 }
 
 document.getElementById("test2.2").innerHTML = i;
+
+//Change CSS with JS
+
+document.getElementsByClassName("blue")[0].style.color = "red";
