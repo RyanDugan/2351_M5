@@ -13,6 +13,7 @@ for (let i = 0; i < fruit.length; i++) {
   text += fruit[i] + "<br>";
 }
 document.getElementById("test1.2").innerHTML = text;
+console.log(fruit);
 
 // While Loop
 
@@ -42,3 +43,7 @@ document.getElementById("test2.2").innerHTML = i;
 //Change CSS with JS
 //color of first p element is changec from blue to red. Both have a class of "blue".
 document.getElementsByClassName("blue")[0].style.color = "red";
+
+document.getElementById("test3").style.transform = "rotate(5deg)";
+
+//Change CSS based upon variable value
