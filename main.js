@@ -24,3 +24,17 @@ while (i < 10) {
   console.log(i);
   i = i + 2;
 }
+
+// Do While Loop
+
+{
+  let txt = "";
+  let i = 0;
+
+  do {
+    txt += "<br>The Number is " + i;
+    i++;
+  } while (i < 10);
+}
+
+document.getElementById("test2.2").innerHTML = i;
