@@ -67,3 +67,16 @@ toggleButton.addEventListener("click", function () {
   }
   blueColor = !blueColor;
 });
+
+// Part 3
+const subjectTwo = document.getElementById("subjectTwo");
+
+subjectTwo.addEventListener("click", function () {
+  if (subjectTwo.classList.contains("blueColor")) {
+    subjectTwo.classList.remove("blueColor");
+    subjectTwo.classList.add("redColor");
+  } else {
+    subjectTwo.classList.remove("redColor");
+    subjectTwo.classList.add("blueColor");
+  }
+});
