@@ -39,7 +39,7 @@ while (i < 10) {
 }
 
 //Change CSS with JS
-//color of first p element is changec from blue to red. Both have a class of "blue".
+//color of first p element is changed from blue to red. Both have a class of "blue".
 document.getElementsByClassName("blue")[0].style.color = "red";
 
 //the style was transformed with js!
