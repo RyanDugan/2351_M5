@@ -48,6 +48,22 @@ document.getElementById("test3").style.transform = "rotate(5deg)";
 //Change CSS based upon variable value
 
 function changeColor() {
-  document.getElementById("test4").innerHTML = "I'm seeing red! CLICK ME!!!";
-  document.getElementById("test4").style.color = "red";
+  document.getElementById("test4").classList.toggle("blueColor");
 }
+
+// Part 2
+const toggleButton = document.getElementById("toggleButton");
+const subject = document.getElementById("subject");
+
+let blueColor = true;
+
+toggleButton.addEventListener("click", function () {
+  if (blueColor) {
+    subject.classList.remove("blueColor");
+    subject.classList.add("redColor");
+  } else {
+    subject.classList.remove("redColor");
+    subject.classList.add("blueColor");
+  }
+  blueColor = !blueColor;
+});
