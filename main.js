@@ -46,3 +46,8 @@ document.getElementsByClassName("blue")[0].style.color = "red";
 document.getElementById("test3").style.transform = "rotate(5deg)";
 
 //Change CSS based upon variable value
+
+function changeColor() {
+  document.getElementById("test4").innerHTML = "I'm seeing red! CLICK ME!!!";
+  document.getElementById("test4").style.color = "red";
+}
